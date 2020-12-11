@@ -18,6 +18,7 @@ h2 {
     url("Butler-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+  text-decoration: underline;
 }
 h3 {
   font-size: 3.5rem;
