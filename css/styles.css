@@ -1,0 +1,257 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 5.3rem;
+  font-family: "Butler";
+  src: url("Butler-Medium.woff2") format("woff2"),
+    url("Butler-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-family: "Butler";
+  src: url("Butler-Medium.woff2") format("woff2"),
+    url("Butler-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+h3 {
+  font-size: 3.5rem;
+  line-height: 125%;
+  font-family: "Butler";
+  src: url("Butler-Medium.woff2") format("woff2"),
+    url("Butler-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.red {
+  background-color: #fe4557;
+}
+
+.black {
+  background-color: #393f3e;
+}
+
+.grey {
+  background-color: #bcbcbc;
+}
+/* front page */
+
+.navbar {
+  font-size: 2rem;
+  background-color: #31414c;
+}
+.nav-link {
+  text-decoration: underline;
+  text-decoration-color: #fe4557;
+  margin-left: 50px;
+}
+
+.sign {
+  width: 150px;
+  margin-top: 10%;
+}
+
+#front-page {
+  height: 880px;
+}
+
+.background_image {
+  width: 100%;
+  transform: scaleX(-1);
+  position: relative;
+  z-index: -1;
+  bottom: 17%;
+}
+.front-text {
+  position: absolute;
+  top: 250px;
+  right: 80px;
+  text-align: right;
+}
+.font-a {
+}
+.fab {
+  padding: 52px;
+}
+
+/* new arrivals */
+.new-arrivals {
+  position: relative;
+  background-color: #bcbcbc;
+  padding: 2% 0%;
+  text-align: center;
+}
+
+/* card details start  */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i");
+section {
+  padding: 100px 0;
+}
+.details-card {
+  background: #ecf0f1;
+}
+
+.card-content {
+  background: #ffffff;
+  border: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  z-index: 1;
+  padding-left: 15%;
+}
+
+.card-img img {
+  width: 300px;
+  display: block;
+  margin-top: 10%;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.16),
+    0 15px 25px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-img span {
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  padding: 6px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transform: translate(-50%, -50%);
+}
+.card-img span h4 {
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 5px;
+  line-height: 0;
+}
+.card-desc {
+  padding: 1.25rem;
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.card-desc p {
+  color: #747373;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.btn-card {
+  color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.16),
+    0 15px 25px 0 rgba(0, 0, 0, 0.12);
+  padding: 0.84rem 2.14rem;
+  font-size: 0.81rem;
+  -webkit-transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  margin: 0;
+  border: 0;
+  -webkit-border-radius: 0.125rem;
+  border-radius: 0.125rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  white-space: normal;
+  word-wrap: break-word;
+  color: #fff;
+}
+.btn-card:hover {
+  background: orange;
+}
+a.btn-card {
+  text-decoration: none;
+  color: #fff;
+}
+/* End card section */
+
+/* fashion story */
+
+.fason {
+  text-align: center;
+}
+.fas-img {
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 5%;
+  z-index: 2;
+  position: absolute;
+}
+.outfit {
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  z-index: 1;
+  left: 500px;
+  top: 2050px;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.blackground {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 2300px;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+.greyground {
+  height: 225px;
+  z-index: 1;
+  top: 750px;
+  position: relative;
+}
+.logo {
+  width: 100px;
+  margin: 75px 50px;
+}
+.Learn {
+  font-family: "Butler";
+  src: url("Butler-Medium.woff2") format("woff2"),
+    url("Butler-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  background-color: #393f3e;
+}
+
+.logos {
+  width: 80px;
+  margin: 75px 30px;
+}
